@@ -4,6 +4,7 @@
 *.dll
 *.exe
 *.o
+*.obj
 *.so
 test
 
@@ -22,7 +23,14 @@ ehthumbs.db
 Thumbs.db
 
 ## Build dir
-Build/*
+#Build/*
+Build/vs/*.sdf
+Build/vs/*.opensdf
+Build/vs/*.suo
+Build/vs/*.htm
+Build/vs/Release/*
+Build/vs/Debug/*
+Build/vs/Backup/*
 
 ## xcode specific
 *xcuserdata*
